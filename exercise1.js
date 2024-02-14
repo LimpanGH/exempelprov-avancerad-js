@@ -3,7 +3,11 @@
 // Den nya arrayen ska sparas i en variabel som heter smallerThan50.
 const numbers = [200, 54, 582, 33, 4];
 
-// Din kod här: 
+// Din kod här:
+
+const smallerThan50 = numbers.filter((items) => {
+  return items < 50;
+});
 
 // 1.2 (2p) Använd map på arrayen numbers2 och
 // skapa en ny array där alla tal är tripplade. Alltså gånger 3.
@@ -11,8 +15,9 @@ const numbers = [200, 54, 582, 33, 4];
 const numbers2 = [...numbers]; //[200, 54, 582, 33, 4];
 
 // Din kod här:
-
-
+const tripple = numbers2.map((item) => {
+  return item * 3;
+});
 
 // Test
 // console.log(smallerThan50); // Ska logga [33, 4]

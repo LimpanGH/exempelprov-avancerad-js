@@ -15,5 +15,5 @@ const magic = function() {
 
 
 
-console.log(myConcat([1, 2], [3, 4, 5])); // Ska (som tidigare)logga [1, 2, 3, 4, 5]
-console.log(add(2, 3)); // Ska (som tidigare) logga 5
+// console.log(myConcat([1, 2], [3, 4, 5])); // Ska (som tidigare)logga [1, 2, 3, 4, 5]
+// console.log(add(2, 3)); // Ska (som tidigare) logga 5
