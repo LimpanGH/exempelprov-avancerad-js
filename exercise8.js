@@ -1,4 +1,4 @@
-// 8 (3p) Generera en lista av li-element med hjälp av map 
+// 8 (3p) Generera en lista av li-element med hjälp av map
 // och template strings.
 
 // Använd arrayen movies
@@ -6,23 +6,28 @@
 // returnerar en lista av li-element som innehåller namlet på filmen och året den släpptes.
 
 const movies = [
-    { title: "The Matrix", year: 1999 },
-    { title: "The Lord of the Rings: The Fellowship of the Ring", year: 2001 },
-    { title: "The Lord of the Rings: The Two Towers", year: 2002 },
-    { title: "The Lord of the Rings: The Return of the King", year: 2003 },
-    { title: "The Shawshank Redemption", year: 1994 },
-    { title: "The Godfather", year: 1972 },
-    { title: "The Dark Knight", year: 2008 },
-]
+  { title: 'The Matrix', year: 1999 },
+  { title: 'The Lord of the Rings: The Fellowship of the Ring', year: 2001 },
+  { title: 'The Lord of the Rings: The Two Towers', year: 2002 },
+  { title: 'The Lord of the Rings: The Return of the King', year: 2003 },
+  { title: 'The Shawshank Redemption', year: 1994 },
+  { title: 'The Godfather', year: 1972 },
+  { title: 'The Dark Knight', year: 2008 },
+];
 
-// Din kod här:
+// Solution:
+// function generateList(movies) {
+//   const listItems = movies.map(
+//     (param) => `<li>${param.title} (${param.year})</li>`
+//   );
+//   const list = listItems.join('\n    ');
+//   return `<ul>\n    ${list}\n</ul>`;
+// }
 
+// Test
+// console.log(generateList(movies));
 
-
-
-
-// Test 
-// console.log(generateList(movies)); // Ska logga strängen:
+// Ska logga strängen:
 // "<ul>
 //     <li>The Matrix (1999)</li>
 //     <li>The Lord of the Rings: The Fellowship of the Ring (2001)</li>

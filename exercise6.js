@@ -3,12 +3,12 @@
   // och använder spread operatorn för att kombinera dem till en enda array.
   // Returnera den nya arrayen
   
-  function combineArrays(arr1, arr2) {
-    // Din kod här.
- 
-  }
+// Solution: 
+  // function combineArrays(arr1, arr2) {
+  //   return [...arr1] + ',' + [...arr2]
+  //  }
   
 
   //Test
-  //console.log(combineArrays([1, 2, 3], [4, 5, 6])); // Ska logga [1, 2, 3, 4, 5, 6]
+  // console.log(combineArrays([1, 2, 3], [4, 5, 6])); // Ska logga [1, 2, 3, 4, 5, 6]
   
