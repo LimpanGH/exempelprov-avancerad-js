@@ -1,12 +1,11 @@
-// * 4.1 (3p) Skriv klart funktionen updatePeople
+// 4.1 (3p) 
+// Skriv klart funktionen updatePeople som 
+// lägger till en property:
+// - adult: true, om personen i arrayen är 18 år eller över 
+// - annars en property: adult: false
+ 
+//funktionen ska returnera den uppdaterade arrayen.
 
-// som lägger till en property:
-//  adult: true
-// om personen i arrayen är 18 år eller över annars:
-// en property:
-// adult: false
-
-// funktionen ska returnera den uppdaterade arrayen.
 // Använd map och spread operator.
 
 const people = [
