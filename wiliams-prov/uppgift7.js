@@ -1,4 +1,4 @@
-// 7.1 (2p) Skapa ett nytt objekt state2
+// *  7.1 (2p) Skapa ett nytt objekt state2 ---------
 // Det nya objektet ska updatera value till 20
 // Använd spread operatorn ...
 
@@ -7,18 +7,19 @@ const state = {
   value: 10,
 };
 
-// Din kod här:
-const state2 = { ...state, value: 20 };
+// Solution:
+// const state2 = { ...state, value: 20 };
 
-// 7.2 (2p) Skriv klart funktionen updateState
+// * 7.2 (2p) Skriv klart funktionen updateState ---------
 // som ska uppdatera list med newList på objektet state.
 // Använd spread operatorn ...
 
-function updateState(state, newList) {
-  let newli = { ...state2, list: newList };
-  return newli;
-}
+// Solution:
+// function updateState(state, newList) {
+//   let newli = { ...state2, list: newList };
+//   return newli;
+// }
 
 // Test
-console.log(state2); // Ska logga: { list:[1,2,3], value: 20 }
-console.log(updateState(state, [4, 5, 6])); // Ska logga: { list:[4,5,6], value: 20 }
+// console.log(state2); // Ska logga: { list:[1,2,3], value: 20 }
+// console.log(updateState(state, [4, 5, 6])); // Ska logga: { list:[4,5,6], value: 20 }
