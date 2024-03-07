@@ -16,10 +16,9 @@ const state = {
 
 // Solution:
 // function updateState(state, newList) {
-//   let newli = { ...state2, list: newList };
-//   return newli;
+//   let newState = { ...state, list: newList };
+//   return newState;
 // }
 
-// Test
 // console.log(state2); // Ska logga: { list:[1,2,3], value: 20 }
-// console.log(updateState(state, [4, 5, 6])); // Ska logga: { list:[4,5,6], value: 20 }
+// console.log(updateState(state, [4, 5, 6])); // Ska logga: { list:[4,5,6], value: 10 }
