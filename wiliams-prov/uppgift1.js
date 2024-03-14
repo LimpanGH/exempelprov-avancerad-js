@@ -21,6 +21,8 @@ const car = {
 // * 1.2 (1p) Skapa tre variabler name, speed och isFast genom --------------
 // destructuring av objektet som returneras från addIsFast.
 
+
+
 // Solution:
 // let car2 = addIsFast(car);
 // const { speed, name, isFast } = car2;
