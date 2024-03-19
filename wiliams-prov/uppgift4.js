@@ -18,12 +18,15 @@ const authors = [
   { first: 'Alexandr', last: 'Blok', year: 1880, passed: 1921 },
 ];
 
+
 // Solution:
-// function getAuthorsByFullname(authors) {
-//   const display = authors.map((auth) =>
-//     console.log(`${auth.first} ${auth.last}`)
-//   );
+// function getAuthorsByFullName(authors) {
+//   const fullNames = authors.map((auth) => {
+//     return `${auth.first} ${auth.last}`;
+//   });
+//   return fullNames;
 // }
 
 // Test
-// console.log(getAuthorsByFullname(authors)); // Ska logga: ["Leo Tolstoj", "Alexander Pusjkin", "Fjodor Dostojevski", "Anton Tjechov", "Vladimir Nabokov", "Maksim Gorkij", "Koldan Egorov", "Nikolaj Gogl", "Leonid Andrejev", "Mirra Lokhvitskaya", "Ivan Krylov", "Michail Lermontov", "Alexandr Blok" ]
+// console.log(getAuthorsByFullName(authors)); // Ska logga: ["Leo Tolstoj", "Alexander Pusjkin", "Fjodor Dostojevski", "Anton Tjechov", "Vladimir Nabokov", "Maksim Gorkij", "Koldan Egorov", "Nikolaj Gogl", "Leonid Andrejev", "Mirra Lokhvitskaya", "Ivan Krylov", "Michail Lermontov", "Alexandr Blok" ]
+
