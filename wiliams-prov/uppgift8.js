@@ -30,7 +30,6 @@ const tweets = [
 
 // Solution:
 // function displayTweet(updatedTweets) {
-//   const posts = document.querySelector('post');
 //   const ul = document.getElementById('tweets');
 
 //   ul.innerHTML = updatedTweets.map((item) => {
