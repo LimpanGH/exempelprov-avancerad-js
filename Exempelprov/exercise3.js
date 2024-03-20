@@ -3,38 +3,27 @@
 // completed: true
 // Använd fetch och async/await, samt felhantering medd try/catch.
 
+//* Solution -------------------------------------------------
 // const url = 'https://jsonplaceholder.typicode.com/todos/';
 
 // async function fetchTodoData() {
+//   const todoListContainer = document.querySelector('#todoList');
 //   try {
 //     const response = await fetch(url);
 //     if (!response.ok) {
-//       throw new Error('Failed to fetch todo data');
+//       throw new Error('Failed to fetch data');
 //     }
-//     const todos = await response.json();
-//     return todos;
-//   } catch (error) {
-//     console.error('Error fetching todo data:', error.message);
-//     return [];
-//   }
-// }
-
-// async function displayCompletedTodos() {
-//   const todoListContainer = document.querySelector('#todoList');
-//   try {
-//     const todos = await fetchTodoData();
-//     const completedTodos = todos.filter((todo) => todo.completed);
+//     const data = await response.json();
+//     const completedTodos = data.filter((todo) => todo.completed);
 //     completedTodos.forEach((todo) => {
-//       console.log(todo.title + ' ' + todo.completed)
-//       ;const todoTitleElement = document.createElement('p');
+//       console.log(todo.title + ' ' + todo.completed);
+//       const todoTitleElement = document.createElement('p');
 //       todoTitleElement.textContent = todo.title;
 //       todoListContainer.appendChild(todoTitleElement);
 //     });
 //   } catch (error) {
-//     console.error('Error displaying the todos:', error.message);
+//     console.error('Error', error);
 //   }
 // }
 
-// displayCompletedTodos();
-
-
+// fetchTodoData();
