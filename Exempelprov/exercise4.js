@@ -1,9 +1,9 @@
-// 4.1 (3p) 
-// Skriv klart funktionen updatePeople som 
+//*  4.1 (3p) -------------------------
+// Skriv klart funktionen updatePeople som
 // lägger till en property:
-// - adult: true, om personen i arrayen är 18 år eller över 
+// - adult: true, om personen i arrayen är 18 år eller över
 // - annars en property: adult: false
- 
+
 //funktionen ska returnera den uppdaterade arrayen.
 
 // Använd map och spread operator.
@@ -16,7 +16,24 @@ const people = [
   { name: 'Alice', age: 6 },
 ];
 
-// Solution:
+//* Solution with if else:
+// let updatePeople = (person) => {
+//   let isAdult;
+
+//   return person.map((person) => {
+//     if (person.age >= 18) {
+//       isAdult = true;
+//     } else {
+//       isAdult = false;
+//     }
+//     return {
+//       ...person,
+//       isAdult,
+//     };
+//   });
+// };
+
+//* Solution with ternary:
 // function updatePeople(people) {
 //   return people.map((param) => {
 //     return {
