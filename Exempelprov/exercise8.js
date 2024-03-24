@@ -15,8 +15,17 @@ const movies = [
   { title: 'The Dark Knight', year: 2008 },
 ];
 
-// Solution:
-// function generateList(movies) {
+// Solution1, with arrow function
+// let generateList = () => {
+//   const listItem = movies.map((item) => {
+//     return `<li>${item.title} ${item.year}</li>`;
+//   });
+//   const list = listItem.join('\n    ');
+//   return `<ul>\n    ${list}\n</ul>`;
+// };
+
+// Solution2, with function declaration:
+// function generateList() {
 //   const listItems = movies.map(
 //     (param) => `<li>${param.title} (${param.year})</li>`
 //   );
@@ -25,7 +34,7 @@ const movies = [
 // }
 
 // Test
-// console.log(generateList(movies));
+// console.log(generateList());
 
 // Ska logga strängen:
 // "<ul>

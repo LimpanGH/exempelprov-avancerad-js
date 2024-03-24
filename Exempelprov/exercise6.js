@@ -8,4 +8,4 @@
 // let combineArrays = (arr1, arr2) => {
 // return [...arr1, ...arr2]
 // }
-console.log(combineArrays([1, 2, 3], [4, 5, 6])); // Ska logga [1, 2, 3, 4, 5, 6]
+// console.log(combineArrays([1, 2, 3], [4, 5, 6])); // Ska logga [1, 2, 3, 4, 5, 6]

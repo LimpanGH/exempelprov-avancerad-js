@@ -118,13 +118,13 @@ const people = [
 
 // Använd map och spread operator.
 
-const people = [
-  { name: 'Alice', age: 30 },
-  { name: 'Bob', age: 15 },
-  { name: 'Charlie', age: 35 },
-  { name: 'Fred', age: 19 },
-  { name: 'Alice', age: 6 },
-];
+// const people = [
+//   { name: 'Alice', age: 30 },
+//   { name: 'Bob', age: 15 },
+//   { name: 'Charlie', age: 35 },
+//   { name: 'Fred', age: 19 },
+//   { name: 'Alice', age: 6 },
+// ];
 
 // Solution:
 // function updatePeople() {
