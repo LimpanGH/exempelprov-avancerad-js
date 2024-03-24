@@ -10,11 +10,15 @@ const cameraGear = [
   { name: 'Drone', brand: 'GoPro', model: 'Karma', price: 200 },
 ];
 
+function calculateTotalPrice() {
+  
+}
+
 // Solution:
-// function calculateTotalPrice(shoppingCart) {
-//   const total = shoppingCart.reduce((acc, item) => acc + item.price, 0);
-//   return total;
+// function calculateTotalPrice() {
+//   const total = cameraGear.reduce((acc, item) => acc + item.price, 0);
+//  return total;
 // }
 
 // Test
-// console.log(calculateTotalPrice(cameraGear)); // Ska logga: 550
+// console.log(calculateTotalPrice()); // Ska logga: 550

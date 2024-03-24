@@ -37,7 +37,7 @@
 //   }
 // }
 
-// // Exempel användning:
+//*  Test: --------------------------------
 // const student1 = new Student('Sandra');
 // const student2 = new Student('Torsten');
 // const student3 = new Student('Stina');
@@ -107,7 +107,7 @@
 //   }
 // }
 
-// // * Exempel på användning: -------------------------------------
+// //*  Test: --------------------------------
 
 // // * Skapa instanser av Student och Course
 // const student1 = new Student('Sandra');

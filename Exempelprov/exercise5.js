@@ -51,9 +51,22 @@ const cameraGear = [
 //   return totalPrice;
 // }
 
+// Solution2 med reduce() :
+// function calculateTotalPrice(shoppingCart, prices) {
+//   return shoppingCart.reduce((accumulator, product) => {
+//     const model = product.model;
+//     if (prices.hasOwnProperty(model)) {
+//       return accumulator + prices[model];
+//     } else {
+//       console.log(`Price not found for model: ${model}`);
+//       return totalPrice;
+//     }
+//   }, 0);
+// }
+
 // Test
 // console.log(calculateTotalPrice(cameraGear, modelPrices)); // Ska logga 550
 
-// * I Solution2 används hasOwnProperty() för att kontrollera om prices-objektet har en egenskap med namnet,
+// * I Solution2 och solution3 används hasOwnProperty() för att kontrollera om prices-objektet har en egenskap med namnet,
 // *  som matchar product.model. Om det finns en egenskap i prices-objektet med nyckeln product.model innebär det,
 // *  att det finns ett pris för den aktuella produkten i shoppingvagnen. Därför läggs priset till det totala priset.
