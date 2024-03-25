@@ -23,9 +23,9 @@
 //   }
 // }
 
-// //! Klassen Course ska ha följande egenskaper:
-// // Två properties: name, yhp (poäng på YH).
-// // Metoden: getCourseInfo() som visar information om kursen.
+// // //! Klassen Course ska ha följande egenskaper:
+// // // Två properties: name, yhp (poäng på YH).
+// // // Metoden: getCourseInfo() som visar information om kursen.
 // class Course {
 //   constructor(name, yhp) {
 //     this.name = name;
@@ -37,7 +37,7 @@
 //   }
 // }
 
-//*  Test: --------------------------------
+// //*  Test: --------------------------------
 // const student1 = new Student('Sandra');
 // const student2 = new Student('Torsten');
 // const student3 = new Student('Stina');

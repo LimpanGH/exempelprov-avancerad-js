@@ -8,20 +8,18 @@ const car = {
   speed: 120,
 };
 
+// let addIsFast = (car) => {}
+
 // Solution:
-// function addIsFast(car) {
-//   if (car.speed > 100) {
-//     return {
-//       ...car,
-//       isFast: true,
-//     };
+// let addIsFast = () => {
+//   return {
+//    ...car,
+//    IsFast: car.speed >100 ? true : false
 //   }
-// }
+//  }
 
 // * 1.2 (1p) Skapa tre variabler name, speed och isFast genom --------------
 // destructuring av objektet som returneras från addIsFast.
-
-
 
 // Solution:
 // let car2 = addIsFast(car);
